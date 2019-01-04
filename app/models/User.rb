@@ -1,3 +1,4 @@
+# Build the following methods on the User class
 class User
 
   @@all = []

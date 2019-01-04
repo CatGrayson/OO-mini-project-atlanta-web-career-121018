@@ -35,10 +35,11 @@ class RecipeCard
 
                     # - `RecipeCard#recipe`
                     # should return the recipe to which the entry belongs
-  def recipe 
+  def recipe
     Recipe.all.select do |entry|
       entry.recipe == self
     end
   end
+
 
 end

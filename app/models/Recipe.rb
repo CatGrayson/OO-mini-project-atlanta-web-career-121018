@@ -1,3 +1,5 @@
+### `Recipe`
+
 class Recipe
 
   @@all = []
