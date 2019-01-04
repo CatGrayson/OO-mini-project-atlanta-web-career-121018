@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Ingredient
 
   @@all =[]
@@ -21,22 +20,3 @@ class Ingredient
   end
 
 end
-=======
-class Ingredient
-
-  @@all = []
-
-  def initialize(name)
-    @name = name
-  end
-
-# should return all of the ingredient instances
-# - `Ingredient.all`
-
-  def self.all
-    @@all
-  end
-
-  # Ingredient.most_common_allergen should return the ingredient instance that the highest number of users are allergic to
-end
->>>>>>> a33cf37d19282931d27c806328a7c234b74bc887
